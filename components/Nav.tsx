@@ -38,19 +38,19 @@ export function Nav() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-hair bg-void/70 backdrop-blur-xl">
-      <nav className="mx-auto flex max-w-content items-center justify-between gap-3 px-5 py-5 sm:px-8">
+      <nav className="mx-auto flex max-w-content items-center justify-between gap-2 px-5 py-3.5 sm:gap-3 sm:px-8 sm:py-5">
         <Link
           href="/"
-          className="group flex items-center gap-2.5 font-display text-lg font-semibold tracking-tight text-mist transition-colors hover:text-accent"
+          className="group flex shrink-0 items-center gap-2 font-display text-base font-semibold tracking-tight text-mist transition-colors hover:text-accent sm:gap-2.5 sm:text-lg"
         >
           <span
             aria-hidden
-            className="h-2.5 w-2.5 rounded-full bg-accent transition-transform duration-300 group-hover:scale-[1.6]"
+            className="h-2 w-2 rounded-full bg-accent transition-transform duration-300 group-hover:scale-[1.6] sm:h-2.5 sm:w-2.5"
           />
           Sasha Sutton<span className="text-accent">.</span>
         </Link>
 
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3">
           {/* Route links — sliding accent indicator tracks the active page */}
           <ul className="hidden items-center sm:flex">
             {routes.map((r) => {
@@ -85,7 +85,7 @@ export function Nav() {
           <div
             role="group"
             aria-label={t.language}
-            className="flex h-11 items-center rounded-full border border-hair p-1"
+            className="flex h-9 items-center rounded-full border border-hair p-0.5 sm:h-11 sm:p-1"
           >
             {(["en", "fr"] as const).map((lng) => (
               <button
@@ -93,7 +93,7 @@ export function Nav() {
                 type="button"
                 onClick={() => setLocale(lng)}
                 aria-pressed={locale === lng}
-                className={`rounded-full px-3 py-1.5 font-mono text-[13px] uppercase tracking-widest transition-colors active:scale-95 ${
+                className={`rounded-full px-2 py-1 font-mono text-[11px] uppercase tracking-widest transition-colors active:scale-95 sm:px-3 sm:py-1.5 sm:text-[13px] ${
                   locale === lng
                     ? "bg-accent/15 text-accent"
                     : "text-muted hover:text-mist"
@@ -110,7 +110,7 @@ export function Nav() {
             onClick={toggleTheme}
             aria-label={t.theme}
             title={t.theme}
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-hair text-muted transition-colors hover:border-accent/50 hover:text-accent active:scale-95"
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-hair text-muted transition-colors hover:border-accent/50 hover:text-accent active:scale-95 sm:h-11 sm:w-11"
           >
             {theme === "dark" ? <SunIcon /> : <MoonIcon />}
           </button>
@@ -119,7 +119,7 @@ export function Nav() {
           <a
             href="/Sasha-Sutton-CV.pdf"
             download
-            className="inline-flex h-11 items-center gap-2 rounded-full bg-accent px-5 text-base font-medium tracking-tight text-void transition-[filter,transform] hover:brightness-110 active:scale-95"
+            className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-accent px-3 text-sm font-medium tracking-tight text-void transition-[filter,transform] hover:brightness-110 active:scale-95 sm:h-11 sm:gap-2 sm:px-5 sm:text-base"
           >
             <DownloadIcon />
             <span>{t.cv}</span>
