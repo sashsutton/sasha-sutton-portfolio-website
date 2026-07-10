@@ -18,7 +18,9 @@ export function Marquee({ items }: { items: string[] }) {
                 className="flex items-center gap-8 font-display text-2xl font-medium tracking-tight text-muted sm:text-3xl"
               >
                 {item}
-                <span className="text-accent">✳</span>
+                {/* U+FE0E forces text (non-emoji) rendering so the symbol
+                    stays the accent-coloured glyph on iOS, matching desktop. */}
+                <span className="text-accent">{"✳︎"}</span>
               </span>
             ))}
           </Fragment>
