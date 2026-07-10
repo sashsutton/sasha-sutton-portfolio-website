@@ -229,6 +229,7 @@ export const science = {
       dates: "Sept 2026 – June 2027",
       detail:
         "A selective AI track taught in English, covering machine learning, big data, and symbolic and hybrid AI. Gif-sur-Yvette, France.",
+      href: "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science/m1-data-knowledge-and-hybrid-artificial-intelligence-dkai",
     },
     {
       title: "BSc Mathematics (L3, double-degree)",
@@ -236,6 +237,7 @@ export const science = {
       dates: "Sept 2026 – June 2027",
       detail:
         "A second bachelor's completed alongside the M1, deepening the mathematical foundations of AI.",
+      href: "https://sciences.univ-amu.fr/fr/formation/licences/licence-mathematiques#pacome-objectifs-8256",
     },
     {
       title: "BSc Mathematics and Computer Science",
@@ -243,12 +245,14 @@ export const science = {
       dates: "Sept 2023 – June 2026",
       detail:
         "Data structures & algorithms (Java), probability & statistics, OOP, linear algebra, calculus. 1st place at the Aix-Marseille University hackathon (2026), and a member of the Chess and Mathematics clubs.",
+      href: "https://sciences.univ-amu.fr/fr/formation/licences/licence-informatique/parcours-mathematiques-informatique",
     },
     {
       title: "BA Music Production & Sound Engineering",
       org: "Middlesex University / Point Blank Music School",
       dates: "Oct 2021 – Oct 2023",
       detail: "Where it all started, learning production and sound engineering. London, UK.",
+      href: "https://www.pointblankmusicschool.com/courses/london/he/ba-hons-music-production-and-sound-engineering-degree-3-years-reval/",
     },
   ] satisfies TimelineEntry[],
 
@@ -396,6 +400,7 @@ export const music = {
       dates: "Oct 2021 – Oct 2023",
       detail:
         "BA in Music Production & Sound Engineering. Moved to London in September 2021 to start over after a difficult first attempt at engineering school in France, and spent two years learning production and sound engineering from the ground up.",
+      href: "https://www.pointblankmusicschool.com/courses/london/he/ba-hons-music-production-and-sound-engineering-degree-3-years-reval/",
     },
     {
       title: "Fabric London, Sound Engineering Team",

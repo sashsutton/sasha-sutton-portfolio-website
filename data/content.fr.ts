@@ -150,6 +150,7 @@ export const fr: Content = {
         dates: "Sept 2026 – Juin 2027",
         detail:
           "Un parcours IA sélectif enseigné en anglais, couvrant le machine learning, le big data et l'IA symbolique et hybride. Gif-sur-Yvette, France.",
+        href: "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science/m1-data-knowledge-and-hybrid-artificial-intelligence-dkai",
       },
       {
         title: "Licence de Mathématiques (L3, double diplôme)",
@@ -157,6 +158,7 @@ export const fr: Content = {
         dates: "Sept 2026 – Juin 2027",
         detail:
           "Une seconde licence menée en parallèle du M1, approfondissant les fondements mathématiques de l'IA.",
+        href: "https://sciences.univ-amu.fr/fr/formation/licences/licence-mathematiques#pacome-objectifs-8256",
       },
       {
         title: "Licence de Mathématiques et Informatique",
@@ -164,13 +166,15 @@ export const fr: Content = {
         dates: "Sept 2023 – Juin 2026",
         detail:
           "Structures de données & algorithmes (Java), probabilités & statistiques, POO, algèbre linéaire, analyse.",
+        href: "https://sciences.univ-amu.fr/fr/formation/licences/licence-informatique/parcours-mathematiques-informatique",
       },
       {
         title: "Licence en Production Musicale & Ingénierie du Son",
         org: "Middlesex University / Point Blank Music School",
-        dates: "2021 – 2023",
+        dates: "Oct 2021 – Oct 2023",
         detail:
           "Là où tout a commencé, en apprenant la production et l'ingénierie du son. Londres, Royaume-Uni.",
+        href: "https://www.pointblankmusicschool.com/courses/london/he/ba-hons-music-production-and-sound-engineering-degree-3-years-reval/",
       },
     ],
 
@@ -319,6 +323,7 @@ export const fr: Content = {
         dates: "Oct 2021 – Oct 2023",
         detail:
           "Licence en Production Musicale & Ingénierie du Son. Installé à Londres en septembre 2021 pour repartir de zéro après une première tentative difficile en école d'ingénieur en France, et deux ans à apprendre la production et l'ingénierie du son de fond en comble.",
+        href: "https://www.pointblankmusicschool.com/courses/london/he/ba-hons-music-production-and-sound-engineering-degree-3-years-reval/",
       },
       {
         title: "Fabric London, Équipe Ingénierie du Son",
