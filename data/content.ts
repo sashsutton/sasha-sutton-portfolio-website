@@ -49,8 +49,6 @@ export const person = {
     "AI",
     "Data science",
     "Software engineering",
-    "Music production",
-    "DJ",
   ],
   // Current base — surfaced as a location pill in the hero.
   location: "Paris",
