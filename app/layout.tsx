@@ -34,15 +34,15 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sashasutton.dev"),
   title: {
-    default: "Sasha Sutton · Science & Sound",
+    default: "Sasha Sutton · AI Master's student & music producer",
     template: "%s · Sasha Sutton",
   },
   description:
-    "Machine learning student (NLP & computer vision, M1 DKAI at Paris-Saclay) with a background in music production and sound engineering (Fabric London, Point Blank), now making videos on maths & CS. One identity, three lenses.",
+    "Machine learning student (NLP & computer vision, M1 DKAI at Paris-Saclay) with a background in music production (Fabric London, Point Blank), now making videos on maths & CS. One identity, three lenses.",
   openGraph: {
-    title: "Sasha Sutton · Science & Sound",
+    title: "Sasha Sutton · AI Master's student & music producer",
     description:
-      "Science & AI (NLP & computer vision) and a music production / sound engineering background.",
+      "Science & AI (NLP & computer vision) and a music production background.",
     type: "website",
   },
 };
